@@ -9,7 +9,10 @@
 }
 
 .inside-div {
-    width: 40px;
-    height: 40px;
     border: 1px solid;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 10px;
 }
