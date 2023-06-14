@@ -8,7 +8,8 @@ for (let i = 1; i <= 256; i++) {
 }
 
 function changeColor() {
-    this.style.backgroundColor = "orange";
+    colorTuple = `(${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)})`
+    this.style.backgroundColor = `rgb${colorTuple}`;
 }
 
 let grid = document.querySelectorAll(".inside-div");
